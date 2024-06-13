@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game {
+    position: relative;
+}
+
+.girl {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s ease-in-out;
+}
+
+.girl-1 {
+    background-image: url('garotinha-1.png'); /* Substitua 'garotinha-1.png' pela imagem da garotinha com a primeira roupa */
+    background-size: cover;
+}
+
+.girl-2 {
+    background-image: url('garotinha-2.png'); /* Substitua 'garotinha-2.png' pela imagem da garotinha com a segunda roupa */
+    background-size: cover;
+}
